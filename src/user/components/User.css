@@ -1,0 +1,49 @@
+.user-data {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+  }
+  
+  .user-data a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+  }
+  
+  .user-data a:hover,
+  .user-data a:active {
+    background: #ffd900;
+  }
+  
+  .user-Card {
+    padding: 0;
+  }
+  
+  .user_Image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+  
+  .user_Name h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #ffd900;
+  }
+  
+  .user_Name:hover h2,
+  .user_Nameser-item:active h2,
+  .user_Name:hover h3,
+  .user_Name:active h3 {
+    color: #292929;
+  }
+  
+  .user_Name h3 {
+    margin: 0;
+  }
